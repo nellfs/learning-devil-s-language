@@ -12,9 +12,7 @@ void printDouble(int num) {
 }
 
 int main() {
-  int num {getValueFromUser()};
-
-  printDouble(num);
+  printDouble(getValueFromUser());
 
   return 0;
 }
